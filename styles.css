@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.card{
+    display: flex;
+    justify-content: center;
+    margin: 60px auto;
+    text-align: center;
+}
+
+.details{
+    margin: 0 32px;
+}
+
+.countdown{
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+img{
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+body{
+    background-color: pink
+
+}
+
+#days, #hours, #minutes, #seconds {
+    background-color: rgba(240, 135, 175, 0.719);
+    border-radius: 5px;
+    display: grid;
+    color: #fff;
+    margin-right: 1rem;
+    width: 5rem;
+    padding: 12px 0;
+    place-items: center;
+    text-align: center;
+
+
+}
